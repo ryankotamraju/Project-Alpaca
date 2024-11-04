@@ -20,14 +20,14 @@ Backtesting: Tested on historical data to evaluate performance, with key metrics
 - Position Management: Holds positions until the z-score reverts to a specified threshold near zero.
 - Risk Management: Implements stop-loss and take-profit rules to mitigate risk.
 
-# Getting Started
-## Prerequisites
+
+# Prerequisites
 Python 3.x
 Libraries: pandas, time, alpaca for data collection, analysis, strategy implementation, and trading.
 
 # Usage
-Run the Algorithm: Use main.py to initialize and execute the trading strategy.
-Configure Parameters: Edit the script to set trading thresholds, lookback period, and position sizing.
+- Run the Algorithm: Use main.py to initialize and execute the trading strategy.
+- Configure Parameters: Edit the script to set trading thresholds, lookback period, and position sizing.
 
 # Limitations and Assumptions
 - Market Neutral Assumption: Assumes that VOO and QQQ have a long-term mean-reverting relationship.
@@ -40,5 +40,5 @@ This project was developed as an academic submission, but contributions are welc
 # License
 This project is licensed under the MIT License.
 
-Acknowledgments
+# Acknowledgments
 Special thanks to the *FINM 25000 Quantitative Portfolio Management and Algorithmic Trading* faculty Mark Hendricks and Sebastien Donadio and for their support and guidance in the development of this project, as well as classmates Keira Wang, Sebastian Tchkotoua, and Andrew Moukabary for their contributions to this collaborative project.
